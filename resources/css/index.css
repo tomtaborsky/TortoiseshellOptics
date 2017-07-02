@@ -1,0 +1,160 @@
+/* General Styling */
+html {
+  font-size: 18px;
+  font-family: "Helvetica", "sans-serif";
+  line-height: 1.4;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+}
+h4, span, a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* -------
+MAIN STYLING
+-------*/
+
+/* jumbotron  */
+.jumbotron {
+  height: 31rem;
+  width: 100%;
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* header */
+header {
+  position: relative;
+  top: 1rem;
+  margin: 0 auto;
+  width: 960px;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--left {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+header img {
+  height: 1.5rem;
+  width: auto;
+}
+header span {
+  padding: 1rem 1rem;
+}
+nav {
+  padding-right: 1rem;
+}
+
+/* Banner */
+
+.jumbotron--banner {
+  background-color: white;
+  font-size: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+.flexcontainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* featurebox styling */
+.featurebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.featurebox--feature {
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 3rem;
+}
+.featurebox--feature span {
+  color: black;
+  display: block;
+}
+#paper img {
+  width: 3.5rem;
+}
+#ruler img, #truck img {
+  width: 5rem;
+}
+
+/* info boxes */
+.infobox {
+  padding-top: 3rem;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+.infobox--info h4 {
+  background-color: cadetblue;
+  padding: .5rem 1.25rem;
+  width: 10rem;
+  font-weight: bold;
+}
+.infobox--info {
+  width: 35%;
+  display: inline-block;
+}
+#leftBox {
+margin-right: 5%;
+}
+
+/* footer */
+footer {
+  width: 960px;
+  margin: 5rem auto 0 auto;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+footer span {
+  color: black;
+}
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+/*
+Media Queries
+*/
+
+/* Media Queries, 1024px */
+@media only screen and (max-width: 1024px) {
+  /* Change Base Font size */
+
+}
+
+/* Media Queries, 470px */
+@media only screen and (max-width: 470px) {
+  /* General */
+
+}
